@@ -1,0 +1,47 @@
+# React App
+*.jsx
+*.js
+*.ts
+*.tsx
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# Conversation history
+conversation_history/
+
+# Coverage
+coverage/

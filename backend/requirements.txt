@@ -1,0 +1,24 @@
+# AI Agent 客服系统 - 后端依赖
+# Python 3.9+
+
+# Web框架
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+sse-starlette==1.8.2
+
+# LangChain 核心
+langchain==0.1.0
+langchain-openai==0.0.5
+# langchain-core==0.1.10
+
+# 数据模型
+pydantic==2.5.0
+
+# 环境变量
+python-dotenv==1.0.0
+
+# 文件上传（用于multipart表单）
+python-multipart==0.0.6
+
+# 异步支持
+aiohttp==3.9.1
