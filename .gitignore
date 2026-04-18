@@ -4,6 +4,12 @@
 *.ts
 *.tsx
 
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
 # Dependencies
 node_modules/
 package-lock.json
